@@ -1,0 +1,62 @@
+.threeCards-section{
+    background-color:#FFFFFF;
+   
+   padding:2.625rem 1.5rem 2.625rem 1.5rem;
+   display: flex;
+   justify-content: space-between;
+   
+}
+.threeCards-child{
+   
+    height: 26.813rem; 
+    background-color:#FFFFFF;
+   
+    
+    display: flex;
+    flex-direction: column;
+}
+.threeCards-child1{
+    padding: 4rem 8.458rem 2.625rem 8.458rem;
+    width: 7.75rem;
+    height: 7.75rem;
+    
+}
+.threeCards-child2{
+    width: 19.417rem;
+    /* height: 8.438rem;
+    */
+   
+    /* margin-left: 2.625rem; */
+   
+    background-color:#FFFFFF;
+    margin:0 2.625rem 4rem 2.625rem;
+}
+.threeCards-child2-1{
+    
+    height: 2.625rem;
+    width:  19.417rem;
+    font-size: 1.688rem;
+    font-weight: 600;
+    font-family:  'Epilogue', sans-serif;
+     /* justify-items:center; */
+    color: #2D2D2D;
+    line-height: 2.625rem;
+    text-align: center;
+   
+    
+
+}
+.threeCards-child2-2{
+    margin-top: 0.75rem;
+    height: 5.063rem;
+    width:  19.417rem;
+    text-indent: 0.625rem;
+    font-size: 1.063rem;
+    font-weight: 400;
+    font-family:  'Epilogue', sans-serif;
+    color: #2D2D2D;
+    line-height: 1.688rem;
+    text-align: center;
+   
+
+}

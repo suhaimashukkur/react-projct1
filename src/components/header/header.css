@@ -1,0 +1,44 @@
+
+
+.header-cont{
+    height:4.875rem ;
+  
+    background-color: #FFFFFF ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    font-size: 1.25rem;
+    color: #2D2D2D;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-left:2.625rem ;
+    margin-bottom: 1.5rem;
+    height: 1.875rem;
+    width: 3.063rem;
+    text-decoration: none;
+}
+.header-right{
+    height:1.688rem ;
+    width: 13.063rem;
+    /* margin-left: 58.625rem; */
+    margin-right:2.625rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+   
+    justify-content: space-between;
+  
+    
+
+}
+.header-rightitem{
+   
+    font-weight:400 ;
+    font-size: 1.063rem;
+    color: #2D2D2D;
+    line-height: 1.688rem;
+    text-decoration:none;
+}

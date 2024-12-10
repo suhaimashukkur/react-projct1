@@ -1,0 +1,57 @@
+.brandname{
+    height:8.177rem ;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 4.25rem 0 4.25rem;
+  
+    
+
+   
+
+}
+.body-cont3-child1{
+    height:2.388rem ;
+    width: 7.254rem;
+   
+    /* margin-top: 2.894rem;
+    
+    margin-bottom:2.894rem ; */
+}
+.body-cont3-child2{
+    height:1.921rem ;
+    width: 5.401rem;
+    /* margin-left:11.334rem ; */
+    /* margin-top: 3.128rem;
+    
+    margin-bottom:3.128rem ; */
+    
+}
+.body-cont3-child3{
+    height:1.088rem ;
+    width: 7.069rem;
+    /* margin-left:11.334rem ; */
+    /* margin-top: 3.544rem;
+    
+    margin-bottom:3.544rem ; */
+    
+}
+.body-cont3-child4{
+    height:2.927rem ;
+    width: 2.382rem;
+    /* margin-left:11.334rem ; */
+  /* margin-top: 2.625rem;
+    margin-bottom:2.625rem ; */
+    
+}
+.body-cont3-child5{
+    height:2.729rem ;
+    width: 4.059rem;
+    /* margin-left:11.334rem ; */
+    /* margin-top:2.724rem;
+    
+    margin-bottom:2.724rem ; */
+    
+    
+}
