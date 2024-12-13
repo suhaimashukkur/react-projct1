@@ -3,7 +3,8 @@ import './homebanner.css'
 import bannerImage from '../../assets/HeaderImage 1.png'
 
 
-function Banner(){
+function Banner(props){
+
     return (
         <section className="banner">
         <div className="banner-1">
@@ -19,7 +20,7 @@ function Banner(){
 
       </div>
       <div className="banner-1-child4">
-       <div className="button-banner1">Contact</div> 
+       <div className="button-banner1" ><button className="contact-btn" onClick={() =>{props.setModal(true)}}>Contact</button></div> 
     </div>
       </div>
       
