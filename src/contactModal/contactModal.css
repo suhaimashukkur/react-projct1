@@ -51,13 +51,13 @@ table {
 .main-cont{
     /* width: 598px;
     height: 495px; */
-    background-color: rgba(15, 14, 14, 0.7);
+    background-color: rgba(128, 117, 117, 0.7);
     margin: 20px 20px 20px 20px;
     position: absolute;
     top: -40%;
     left: 35%;
     transform: scale(0.1);
-    transition: all 0.3s;
+    transition: all 0.5s;
 
     
    

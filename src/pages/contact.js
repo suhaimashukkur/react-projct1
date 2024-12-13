@@ -1,13 +1,16 @@
 import React from 'react'
 import './contact.css'
 
-function Contact() {
+function Contact(props) {
   return (
   <div className='container'>
+     <div className='image-cont'>
+    
+    </div>
   <div className="main-cont2">
        
   <div className="form-cont2">
-  <button className='close-modals'>X</button>
+  <button className='close-modals' >X</button>
           <h1>Get In Touch</h1>
           <form>
               <div className="label-section2">
@@ -27,9 +30,7 @@ function Contact() {
       
   </div>
   </div>
-  <div className='image-cont'>
-    
-    </div>
+ 
 
 </div>
   

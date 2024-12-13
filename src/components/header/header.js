@@ -15,7 +15,8 @@ function Header(){
         id:3,
         name:"Contact",
     value:'/contact'
-}
+},
+
 ];
     return(
 
@@ -23,7 +24,7 @@ function Header(){
             {/* <div className="logo">
                 Logo
             </div> */}
-            <NavLink className="logo" >Logo</NavLink>
+            <NavLink className="logo" to = '/home'>Logo</NavLink>
             <div className="header-right">
                 {
                     navitems.map((i) => (
