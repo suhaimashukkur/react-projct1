@@ -7,11 +7,12 @@ import About from './pages/about'
 import Contact from './pages/contact';
 
 import {BrowserRouter,Routes,Route, Navigate} from 'react-router-dom'
+import { ThemeProvider } from './components/ThemeContext';
 
 function App() {
   return (
     
-   
+    <ThemeProvider>
     <BrowserRouter>
      <Header />
     <Routes>
@@ -23,6 +24,8 @@ function App() {
      
     </Routes>
     </BrowserRouter>
+    </ThemeProvider>
+ 
      );
     
     {/* <Banner />

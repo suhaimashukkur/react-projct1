@@ -42,3 +42,7 @@
     line-height: 1.688rem;
     text-decoration:none;
 }
+.dark{
+    background-color: black;
+    color: white;
+}

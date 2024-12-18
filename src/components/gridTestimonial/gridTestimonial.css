@@ -90,3 +90,14 @@
      color:#2D2D2D ;
      line-height: 1.688rem;
 }
+.dark{
+    background-color: black;
+    color: white;
+}
+.dark1{
+    background-color: grey;
+    color: white;
+}
+/* .grid2-cont.dark1 {
+    background-color: black;
+} */

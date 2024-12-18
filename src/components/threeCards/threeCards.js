@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './threeCards.css';
 import cardimg1 from '../../assets/Skills Card Icon (2).png'
 import cardimg2 from '../../assets/Skills Card Icon.png';
 import cardimg3 from '../../assets/Skills Card Icon (1).png'
+import { ThemeContext } from '../ThemeContext';
 
 function ThreeCards (){
+    const darkTheme = useContext(ThemeContext)
     let cards = [{
         cardImage:cardimg1,
         name:"Product Design",
@@ -26,21 +28,21 @@ function ThreeCards (){
     }
 ]
     return(
-        <section className="threeCards-section">
+        <section className={`threeCards-section ${darkTheme?"dark":''}`}>
         {
         cards.map((i) =>(
                  
-                    <div className="threeCards-child">
+                    <div className={`threeCards-child ${darkTheme?"dark1":''}`}>
                     <div className="threeCards-child1">
                 <img className="cont4-img" src={i.cardImage} alt="arrow1" />
                
             </div>
-            <div className="threeCards-child2">
+            <div className={`threeCards-child2 ${darkTheme?"dark1":''}`}>
                 <div >
-                    <h3 className="threeCards-child2-1">{i.name}</h3>
+                    <h3 className={`threeCards-child2-1 ${darkTheme?"dark1":''}`}>{i.name}</h3>
 
                 </div>
-                <div className="threeCards-child2-2">
+                <div className={`threeCards-child2-2 ${darkTheme?"dark1":''}`}>
                     {i.cardContent} 
                 </div>
                 </div>

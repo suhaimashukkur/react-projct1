@@ -1,7 +1,10 @@
 
-import react from 'react';
+import react, { useContext } from 'react';
 import './header.css'
 import { NavLink } from 'react-router-dom';
+import { ThemeContext, updateTheme, useTheme } from '../ThemeContext';
+import { ThemeUpdateContext } from '../ThemeContext';
+
 
 function Header(){
     let navitems = [{id:1,
@@ -17,19 +20,24 @@ function Header(){
     value:'/contact'
 },
 
+
 ];
+const darkTheme = useContext(ThemeContext);
+const setDarkTheme = useContext(ThemeUpdateContext)
     return(
 
-       <section className="header-cont">
+       <section className={`header-cont ${darkTheme?"dark":''}`}>
             {/* <div className="logo">
                 Logo
             </div> */}
-            <NavLink className="logo" to = '/home'>Logo</NavLink>
+            <NavLink className={`logo ${darkTheme?"dark":''}`} to = '/home'>Logo</NavLink>
             <div className="header-right">
+            <button onClick={setDarkTheme}>^</button>
                 {
                     navitems.map((i) => (
                         // <div className='header-rightitem'>{i}</div>
-                        <NavLink className='header-rightitem' to={i.value}>
+                       
+                        <NavLink className={`header-rightitem ${darkTheme?"dark":''}`} to={i.value}>
                             {i.name}
                         </NavLink>
                     ))

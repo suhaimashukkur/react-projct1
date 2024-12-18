@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import './gridLatestWork.css'
 import gridimg1 from '../../assets/Image.png';
 import gridimg2 from '../../assets/Image (1).png';
@@ -7,7 +7,11 @@ import gridimg4 from '../../assets/Image (3).png';
 import gridimg5 from '../../assets/Image (4).png';
 import gridimg6 from '../../assets/Image (5).png';
 
+import { ThemeContext, ThemeUpdateContext } from "../ThemeContext";
+
 function GridLatestWork (){
+    const darkTheme = useContext(ThemeContext);
+const setDarkTheme = useContext(ThemeUpdateContext);
     let gridImage = [
         {
             image:gridimg1,
@@ -40,9 +44,9 @@ function GridLatestWork (){
         }
     ]
     return(
-    <section className="grid-latestwork">
+    <section className={`grid-latestwork ${darkTheme?"dark1":""}`}>
    
-       <h2 className="grid-heading"> Latest work</h2>
+       <h2 className={`grid-heading ${darkTheme?"dark1":''}`}> Latest work</h2>
        <div className="grid-cont">
    
 
@@ -52,7 +56,7 @@ function GridLatestWork (){
                
                 <div >
                     <img className="img" src= {i.image} alt="grid1" />
-             <div className="grid-title">{i.title}</div>
+             <div className={`grid-title${darkTheme?"dark":''}`}>{i.title}</div>
             <div className="grid-subtitle">{i.subtitle}</div> 
             </div>
             

@@ -99,3 +99,11 @@ background-position: center;
  
    
 }
+.dark1{
+    background-color: grey;
+    color: white;
+}
+.white{
+    background-color: white;
+    color: black;
+}

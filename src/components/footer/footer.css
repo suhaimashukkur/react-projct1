@@ -159,13 +159,6 @@
   
     background-color: #2D2D2D;
     margin-top: 1.5rem;
-   
-    
-   
-}
-.footerbtn-text{
-    width: 4.438rem;
-    height: 1.875rem;
     font-size: 1.25rem;
     font-weight: 600;
     font-family: 'Epilogue', sans-serif;
@@ -175,5 +168,22 @@
     padding-left: 4rem;
     padding-right: 4rem;
     color:white;
+    border: none;
+   
     
+   
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+.dark1{
+    background-color: grey;
+    color: white;
+    
+}
+.dark2{
+    background-color: #dddddd;
+    color: black;
 }
