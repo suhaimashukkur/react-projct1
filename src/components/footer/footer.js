@@ -24,7 +24,7 @@ function Footer (){
         </div>
      <div class="footer-2">
         <div class="footer-2child">
-            <div class={`footer-2child1 ${darkTheme?"dark1":''}`}>
+            <div class={`footer-2child1 ${darkTheme?"dark3":''}`}>
                 This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com
             </div>
           <div class="footer-3">

@@ -76,7 +76,7 @@ function GridTestimonial (){
                 <div className={`grid2-footer ${darkTheme?"dark1":""}`}>
                {i.gridfooter1}
                 </div>
-                <div className={`grid2-footer2 ${darkTheme?"dark1":""}`}>{i.gridfooter2}</div>
+                <div className={`grid2-footer2 ${darkTheme?"dark3":""}`}>{i.gridfooter2}</div>
                 </div>
            
             </div>

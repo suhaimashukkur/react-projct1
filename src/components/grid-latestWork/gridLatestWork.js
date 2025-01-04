@@ -56,8 +56,8 @@ const setDarkTheme = useContext(ThemeUpdateContext);
                
                 <div >
                     <img className="img" src= {i.image} alt="grid1" />
-             <div className={`grid-title${darkTheme?"dark":''}`}>{i.title}</div>
-            <div className="grid-subtitle">{i.subtitle}</div> 
+             <div className={`grid-title ${darkTheme?"dark1":''}`}>{i.title}</div>
+            <div className={`grid-subtitle ${darkTheme?"dark3":''}`}>{i.subtitle}</div> 
             </div>
             
             </>

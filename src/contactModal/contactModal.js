@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './contactModal.css'
 
 function ContactModal(props) {
   return (
+   
  
 //   <div className="main-cont" >
     <div className={ `main-cont ${props.modal?"activemodal":""}`}>

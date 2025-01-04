@@ -58,32 +58,25 @@
 
 }
 
-.banner-1-child4{
-    width: 13.188rem;
-    /* height: 4.875rem; */
-    background-color: #2D2D2D;
-    margin-top: 3rem;
-    /* margin-right: 25.563rem; */
-}
+
 
 .button-banner1{
-    width: 5.188rem;
+    width: 13.188rem;
+    margin-top: 3rem;
     /* height:1.875rem ; */
     font-size: 1.25rem;
     font-weight: 600;
     color: #FFFFFF;
-    margin-left: 4rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-    margin-right: 4rem;
+    padding-left: 4rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 4rem;
+    background-color:#2D2D2D;
     
     
 
 }
-.contact-btn{
-    background-color:#2D2D2D;
-    color: white;
-}
+
 
 .banner-2{
     height: 22.5rem;
@@ -102,8 +95,13 @@ background-position: center;
 .dark1{
     background-color: grey;
     color: white;
+
 }
 .white{
     background-color: white;
     color: black;
+}
+.dark3{
+    background-color: grey;
+    color: #e6e6e6;
 }

@@ -42,7 +42,7 @@ function ThreeCards (){
                     <h3 className={`threeCards-child2-1 ${darkTheme?"dark1":''}`}>{i.name}</h3>
 
                 </div>
-                <div className={`threeCards-child2-2 ${darkTheme?"dark1":''}`}>
+                <div className={`threeCards-child2-2 ${darkTheme?"dark3":''}`}>
                     {i.cardContent} 
                 </div>
                 </div>

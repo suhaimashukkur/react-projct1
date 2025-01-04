@@ -22,14 +22,15 @@
 }
 .header-right{
     height:1.688rem ;
-    width: 13.063rem;
+    /* width: 13.063rem; */
     /* margin-left: 58.625rem; */
     margin-right:2.625rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    /* margin-top: 1.5rem;
+    margin-bottom: 1.5rem; */
     display: flex;
    
     justify-content: space-between;
+    gap: 1rem;
   
     
 

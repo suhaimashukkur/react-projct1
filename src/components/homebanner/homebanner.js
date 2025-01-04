@@ -18,13 +18,13 @@ function Banner(props){
       <div >
        <h2 className={`banner-1-child2 ${darkTheme?"dark1":''}`}> Visual Designer</h2>
       </div>
-      <div className={`banner-1-child3 ${darkTheme?"dark1":""}`}>
+      <div className={`banner-1-child3 ${darkTheme?"dark3":""}`}>
         This is a template figma file,turned into code using Anema.Learn more at AnemaApp.com
 
       </div>
-      <div className={`banner-1-child4 ${darkTheme?"white":''}`}>
-       <div className="button-banner1"  ><button className={`contact-btn ${darkTheme?"white":''}`}  onClick={() =>{props.setModal(true)}}>Contact</button></div> 
-    </div>
+
+       <button className={`button-banner1 ${darkTheme?"white":''}`}  onClick={() =>{props.setModal(true)}}>Contact</button>
+  
       </div>
       
         <div className="banner-2">
